@@ -1,0 +1,57 @@
+/**
+ * @package moDatetimeField
+ * @link https://github.com/MOWebCreation/moDatetimeField
+ * @author Mickaël Outhier (original founder)
+ * @version 1.0
+ * @copyright 2018 Mickaël Outhier
+ * 
+ * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
+ * @note This program is distributed in the hope that it will be useful - WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.
+ */
+
+div.modatetime-field-container { max-width: 420px; }
+div.modatetime-field-container + input { display: none; }
+div.modatetime-field-wrapper {
+	width: 60px;
+	display: inline-block;
+}
+div.modatetime-field-wrapper.modatetime-month { width: 90px; }
+div.modatetime-field-wrapper > label, div.modatetime-field-wrapper > input,
+div.modatetime-field-wrapper > select  {
+	width: 100%;
+	height: 26px;
+	padding: 0;
+}
+div.modatetime-field-wrapper > label { height: auto; margin-bottom: 0; }
+div.modatetime-field-container[data-function="datetime"] > div.modatetime-hour {
+	margin-left: 24px;
+}
+
+@media screen and (max-width: 400px) {
+	div.modatetime-field-wrapper.modatetime-day,
+	div.modatetime-field-wrapper.modatetime-month,
+	div.modatetime-field-wrapper.modatetime-year,
+	div.modatetime-field-wrapper.modatetime-hour,
+	div.modatetime-field-wrapper.modatetime-minutes,
+	div.modatetime-field-wrapper.modatetime-secondes {
+		width: 90px;
+	}
+	div.modatetime-field-container[data-function="datetime"] > div.modatetime-month + div {
+		margin-right: 30px;
+	}
+	div.modatetime-field-container[data-function="datetime"] > div.modatetime-hour {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 350px) {
+	div.modatetime-field-wrapper.modatetime-day,
+	div.modatetime-field-wrapper.modatetime-month,
+	div.modatetime-field-wrapper.modatetime-year,
+	div.modatetime-field-wrapper.modatetime-hour,
+	div.modatetime-field-wrapper.modatetime-minutes,
+	div.modatetime-field-wrapper.modatetime-secondes {
+		display: block;
+	}
+}
