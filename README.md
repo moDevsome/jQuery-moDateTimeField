@@ -13,7 +13,4 @@ I did'nt invest time for the data validation the data because we can never trust
 You can check "server-side-validation.php" for a exemple of server side validation written in PHP.
 
 # Tested on
-IE 11
-Chrome 66
-Opera 52
-Firefox 59
+IE 11, Chrome 66, Opera 52, Firefox 59
