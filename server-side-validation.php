@@ -1,6 +1,9 @@
 <?php
+
+//A server side validation exemple written in PHP
+
   $success_mess = array();
-	$error_mess = array();
+$error_mess = array();
 					
 	if(!empty($_POST)) {
 		$fields = array('exemple1','exemple2','exemple3','exemple4','exemple5','exemple6');
