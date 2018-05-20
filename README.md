@@ -9,7 +9,7 @@ The documention is under redaction.
 You can check this page : https://www.mickael-outhier.fr/works/prod/modatetime-field/index.php for some exemples.
 
 # Validation
-I did'nt invest time for the data validation the data because we can never trust the data sent by the client. Data validation must be done by a server side script.
+I did'nt invest time for the data validation because we can never trust the data sent by the client. Data validation must be done by a server side script.
 You can check "server-side-validation.php" for a exemple of server side validation written in PHP.
 
 # Tested on
