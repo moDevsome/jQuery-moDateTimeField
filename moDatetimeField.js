@@ -201,7 +201,7 @@ $.extend($.fn,{
 			}
 			
 			//Define the value
-			if($(this).val().length > 0) {
+			if($(this).val().match('-')) {
 				var current_value = $(this).val().split('-');
 			}
 			var current_value_index_counter = 0;
@@ -460,7 +460,8 @@ $.extend($.fn,{
 			}
 			
 			//Define the value
-			if($(this).val().length > 0) {
+			var field_value = $(this).val();
+			if(field_value.match('-') && field_value.match(':')) {
 				var current_value = $(this).val().split(' ');
 				var current_date_value =  current_value[0].split('-');
 				var current_time_value =  current_value[1].split(':');
