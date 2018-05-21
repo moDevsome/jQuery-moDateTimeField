@@ -170,7 +170,7 @@ $.extend($.fn,{
 			var language = params.language.substring(0, 2);
 		}
 		else {
-			var language = navigator.language;
+			var language = navigator.language.substring(0, 2);
 		}
 		if(typeof(window.moDatetimeFieldTranslation[language]) === 'undefined') {
 			console.info('moDatetimeField Notice : unable to find "'+ language +'" in translations. So the script use the default "en" language.');
@@ -331,7 +331,7 @@ $.extend($.fn,{
 			var language = params.language.substring(0, 2);
 		}
 		else {
-			var language = navigator.language;
+			var language = navigator.language.substring(0, 2);
 		}
 		if(typeof(window.moDatetimeFieldTranslation[language]) === 'undefined') {
 			console.info('moDatetimeField Notice : unable to find "'+ language +'" in translations. So the script use the default "en" language.');
@@ -427,7 +427,7 @@ $.extend($.fn,{
 			var language = params.language.substring(0, 2);
 		}
 		else {
-			var language = navigator.language;
+			var language = navigator.language.substring(0, 2);
 		}
 		if(typeof(window.moDatetimeFieldTranslation[language]) === 'undefined') {
 			console.info('moDatetimeField Notice : unable to find "'+ language +'" in translations. So the script use the default "en" language.');
