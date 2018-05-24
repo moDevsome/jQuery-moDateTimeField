@@ -1,5 +1,6 @@
 # jQuery-moDateTimeField
 jQuery moDateTimeField build date and/or time field from simple "input text" html field.
+
 jQuery moDateTimeField is mobile friendly.
 
 # Quick integration
