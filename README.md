@@ -6,7 +6,7 @@ jQuery moDateTimeField build date and/or time field from simple "input text" htm
 2. Build your date and/or tim field(s) by calling the script like this : $('selector').moDateField();
 
 The documention is under redaction.
-You can check this page : https://www.mickael-outhier.fr/works/prod/modatetime-field/index.php for some exemples.
+You can check this page : https://www.mickael-outhier.fr/works/prod/modatetime-field/index.php for some live exemples.
 
 # Validation
 I did'nt invest time for the data validation because we can never trust the data sent by the client. Data validation must be done by a server side script.
